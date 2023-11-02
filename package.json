@@ -1,0 +1,26 @@
+{
+  "name": "pw-projects-currents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "withSetupTeardown": "npx playwright test --project=projectWithSetupTeardown",
+    "withNoSetupTeardown": "npx playwright test --project=projectWithNoSetupTeardown"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jblack4/pw-projects-currents.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jblack4/pw-projects-currents/issues"
+  },
+  "homepage": "https://github.com/jblack4/pw-projects-currents#readme",
+  "devDependencies": {
+    "@currents/playwright": "^0.10.1",
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.10"
+  }
+}
